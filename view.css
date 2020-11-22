@@ -158,3 +158,41 @@ button:focus {
   position: relative;
   top: -220px;
 }
+.s3 {
+  box-sizing: border-box;
+  padding: 140px;
+}
+.s3 h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.s3_left {
+  padding-top: 168px;
+  width:50%;
+  float: left;
+}
+.s3 p {
+  font-size: 34px;
+}
+.play {
+  background-image: url(img/play.png);
+  width:215px;
+  height: 70px;
+  background-position-x: -28px;
+  background-position-y: -10px;
+  border-radius: 10px; 
+  margin-right: 20px;
+}
+.app {
+  background-image: url(img/app.png);
+  width:215px;
+  height: 70px;
+  background-position-x: -28px;
+  background-position-y: -2px;
+  border-radius: 10px; 
+}
+.s3_right {
+  float:right;
+  width:50%;
+  height: 100%;
+}
