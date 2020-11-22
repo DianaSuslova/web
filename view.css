@@ -465,3 +465,7 @@ button:focus {
 .footer svg {
   float:left;
 }
+a {
+  color:white;
+  text-decoration: none;
+}
