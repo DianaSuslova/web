@@ -3,10 +3,12 @@ body {
   padding: 0;
   background: white;
   font-family: 'Raleway', sans-serif;
+  color:#4A4A4A;
 }
 header {
   box-sizing: content-box;
   width:100vw;
+  display: block;
 }
 header ul {
   list-style-type: none;
@@ -23,6 +25,8 @@ header ul {
 }
 .nav_left li:first-child {
   margin-top: 0px;
+  margin-left:0;
+  margin-left: 90px;
 }
 .nav_right li {
   float:right;
@@ -62,4 +66,34 @@ header ul {
     color:black;
   }
 
+}
+section {
+  width: 100vw;
+  float:left;
+
+}
+.first h1 {
+  font-size: 77px;
+  font-weight: 900;
+  padding-left:140px;
+}
+.first h3 {
+  padding-left:140px;
+  width:1104px;
+  font-size: 34px;
+  font-weight: 400;
+}
+.first img {
+  width:1592px;
+  height: 988px;
+  position: relative;
+  left:-60px;
+}
+.s2nd {
+  width:100vw;
+  margin-top: 162px;
+}
+.card {
+  display: inline;
+  max-width: 755px;
 }
