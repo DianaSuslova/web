@@ -92,8 +92,69 @@ section {
 .s2nd {
   width:100vw;
   margin-top: 162px;
+  margin-bottom: 162px;
 }
 .card {
-  display: inline;
-  max-width: 755px;
+  display: inline-block;
+  width: 755px;
+  box-sizing: border-box;
+  color: white;
+  padding-top: 55px;
+  padding-left: 57px;
+  height: 980px;
+
+}
+.card h2 {
+  width:755px;
+  font-size: 56px;
+  font-weight: bold;
+}
+.card p {
+  width:755px;
+  font-size: 28px;
+  line-height: 52px;
+}
+.card1 {
+  float:left;
+  background: #FCC242;
+  margin-left:140px;
+}
+.card2 {
+  float:right;
+  background: #4C56C0;
+  margin-right:140px;
+}
+.card ul li {
+  font-size: 26px;
+  line-height: 59px;
+  padding-top:10px;
+}
+.card ul {
+  list-style-type: circle;
+  margin-left: 0;
+  padding-left: 25px;
+}
+.card button {
+  padding: 10px 40px 10px 40px;
+  font-size: 26px;
+  color:white;
+  border-radius: 7px;
+  border:none;
+  margin-top: 100px;
+  margin-bottom: 90px;
+  float: left;
+}
+.card1 button {
+  background: #4C56C0;
+}
+.card2 button {
+  background: #FCC242;
+}
+button:focus {
+  outline:none;
+}
+.card img {
+  float:right;
+  position: relative;
+  top: -220px;
 }
